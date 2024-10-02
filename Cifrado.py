@@ -9,6 +9,7 @@ def num_a_texto(numbers, base=26):
     """Convierte números (0, 1, ..., 25) en texto (A, B, ..., Z) nya"""
     return ''.join(chr(num + ord('A')) for num in numbers)
 
+
 def Cifrado_Hill(text,matriz):
     key_size = matriz.shape[0]
 
